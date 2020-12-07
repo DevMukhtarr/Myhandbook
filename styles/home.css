@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+@font-face {
+  src: url(../fonts/YeonSung-Regular.ttf);
+  font-family: YeonSung;
+}
+
+@font-face {
+  src: url(../fonts/ArchitectsDaughter-Regular.ttf);
+  font-family: Architect;
+}
+
+@font-face {
+  src: url(../fonts/Goldman-Regular.ttf);
+  font-family: Goldman;
+}
+
+header {
+  font-family: YeonSung;
+}
+
+header nav .fa-book-reader {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+header nav .homelink {
+  font-size: 27px;
+  position: relative;
+  left: 3%;
+}
+
+header nav .homelink:hover {
+  text-decoration: none;
+}
+
+header nav .search-container {
+  border-radius: 5px;
+}
+
+header nav .search-input::-webkit-input-placeholder {
+  color: white;
+}
+
+header nav .search-input:-ms-input-placeholder {
+  color: white;
+}
+
+header nav .search-input::-ms-input-placeholder {
+  color: white;
+}
+
+header nav .search-input::placeholder {
+  color: white;
+}
+
+header nav .fa-search {
+  margin-left: 5px;
+}
+
+header nav .fa-user {
+  margin-left: 2px;
+}
+
+header nav .search-input:focus {
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: transparent;
+}
+
+.welcome {
+  position: relative;
+  margin-top: 3%;
+  font-family: Architect;
+}
+
+.first-section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.first-section .start-learning-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.first-section .start-learning-container a {
+  margin-top: 3%;
+  font-family: Goldman;
+  padding: 2%;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 3px grey;
+          box-shadow: 2px 2px 3px grey;
+  font-size: 23px;
+}
+
+.first-section .start-learning-container a:hover {
+  text-decoration: none;
+  -webkit-box-shadow: 1px 1px 3px grey;
+          box-shadow: 1px 1px 3px grey;
+}
+
+.first-section .educational-quotes {
+  margin-top: 3%;
+}
+
+.first-section .educational-quotes img {
+  height: 150px;
+  border-radius: 2px;
+  margin-bottom: 4%;
+}
+
+.first-section .educational-quotes .quote {
+  font-size: 20px;
+}
+
+.first-section .educational-quotes .quote, .first-section .educational-quotes .name {
+  font-family: YeonSung;
+}
+
+.first-section .educational-quotes .name {
+  color: grey;
+  margin-bottom: 6%;
+}
+
+footer {
+  margin-top: 9%;
+  width: 100%;
+}
+/*# sourceMappingURL=home.css.map */
