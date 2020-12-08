@@ -151,4 +151,39 @@ header{
                 }
             }
         }
+        .first-section{
+            .welcome{
+                padding: 5%;
+                font-size: 140%;
+            }
+            .start-learning-container{
+                .start-learning{
+                    padding: 3%;
+                    margin: 3%;
+                    margin-bottom: 10%;
+                }
+            }
+            .educational-quotes{
+                img{
+                    margin: 2%;
+                    margin-bottom: 10%;
+                }
+            }
+        }
+        .footer{
+            padding: 10%;
+            p{
+                font-size: 85%;
+            }
+            a{
+                margin: 5%;
+                font-size: 75%;
+            }
+            .last-section{
+                display: flex;
+                flex-direction: column;
+                margin: 2%;
+                padding: 2%;
+            }
+        }
     }
