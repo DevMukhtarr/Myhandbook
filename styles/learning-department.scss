@@ -1,0 +1,27 @@
+header{
+    nav{
+        .homelink{
+            font-size: 20px;
+        }
+        .homelink:hover{
+            text-decoration: none;
+        }
+    }
+}
+.departments{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    text-align: center;
+    a{
+        padding: 2%;
+        margin: 1%;
+        font-size: 150%;
+        border-radius: 5px;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}

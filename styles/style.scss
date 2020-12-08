@@ -100,4 +100,28 @@ header{
     footer{
         margin-top: 9%;
         width: 100%;
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+            font-weight: 200;
+            padding: 1%;
+            font-size: 20px;
+        }
+        a{
+            margin-left: 2%;;
+            font-family: Goldman;
+            font-size: 19px;
+            text-decoration: underline;
+        }
+        .last-section{
+            text-align: center;
+            padding: 1%;
+            a{
+            padding: 1%;
+            text-decoration: none;
+            color: white;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
     }
