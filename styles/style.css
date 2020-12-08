@@ -22,6 +22,10 @@ body {
   font-family: Goldman;
 }
 
+.header--mobile {
+  display: none;
+}
+
 header {
   font-family: YeonSung;
 }
@@ -164,5 +168,30 @@ footer .last-section a {
 
 footer .last-section a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 750px) {
+  .header {
+    display: none;
+  }
+  .header--mobile {
+    display: inherit;
+  }
+  .header--mobile nav .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 130px;
+    margin-top: 4%;
+    position: relative;
+  }
+  .header--mobile nav .logo p {
+    font-size: 20px;
+  }
+  .header--mobile nav .logo .fa-book-reader {
+    margin-top: 3%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 /*# sourceMappingURL=style.css.map */
